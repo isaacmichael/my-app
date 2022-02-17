@@ -13,18 +13,33 @@
   }
 }
 
-.App-header {
+.head {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
+.name {
+  background-color: azure;
+
+  min-height: auto;
+  min-width: 100vw;
+  place-content: center;
+}
+
+.isaac{
+  color: black;
+  font-family: Ontel;
+  text-align: center;
+
+}
+
+.Media-links {
   color: #61dafb;
 }
 
