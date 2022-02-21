@@ -3,10 +3,12 @@ import './App.css';
 
 function App() {
     return (
+
         <body>
         <header>
-            <div className="profileLogo"></div>
-            <div className="profilePhoto"></div>
+            <div className="profilePhoto">
+                <img src={"isaac.jpg"} alt={"Profile Photo"}/>
+            </div>
 
             <section className="profileHeader">
                 <h1>Isaac Pearson&nbsp;</h1>

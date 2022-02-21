@@ -47,7 +47,7 @@ header .profileHeader h1 {
 }
 header .profileHeader h3 {
   font-family: sans-serif;
-  color: rgba(146,146,146,1.00);
+  color: rgba(77,68,68,1.00);
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
@@ -83,7 +83,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 }
 .section1 .sectionTitle, .section2 .sectionTitle {
   font-family: 'Montserrat', sans-serif;
-  color: rgba(146,146,146,1.00);
+  color: rgba(77,68,68,1.00);
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
@@ -102,12 +102,13 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
   font-family: ProximaNova;
   font-size: 14px;
   font-weight: 100;
-  color: rgba(208,207,207,1.00);
+  color: rgba(77,68,68,1.00);
 }
 .mainContent .section1 .section1Content span {
-  color: rgba(146,146,146,1.00);
+  color: rgba(146, 146, 146, 1.00);
   font-family: sans-serif;
 }
+
 .section2 .sectionContentTitle {
   font-family: sans-serif;
   color: rgba(146,146,146,1.00);
