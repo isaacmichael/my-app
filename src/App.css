@@ -17,11 +17,6 @@ header {
   text-align: center;
   display: block;
 }
-header .profileLogo .logoPlaceholder {
-  background-color: rgba(208,207,207,1.00);
-  width: 187px;
-  text-align: center;
-}
 header .logoPlaceholder span {
   width: 80px;
   height: 22px;
@@ -32,7 +27,8 @@ header .logoPlaceholder span {
   line-height: 53px;
 }
 header .profilePhoto {
-  background-color: rgba(237,237,237,1.00);
+  padding-top: 5%;
+  padding-bottom: 5%;
   width: 259px;
   border-radius: 50%;
   height: 259px;
@@ -99,6 +95,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
   padding: 0px;
 }
 .mainContent .section1 .section1Content {
+  padding-top: 2%;
   font-family: ProximaNova;
   font-size: 14px;
   font-weight: 100;

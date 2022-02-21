@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import isaac from './isaac.jpg';
 import './App.css';
 
 function App() {
@@ -6,14 +6,17 @@ function App() {
 
         <body>
         <header>
-            <div className="profilePhoto">
-                <img src={"isaac.jpg"} alt={"Profile Photo"}/>
-            </div>
+
 
             <section className="profileHeader">
+
+                <div className="profilePhoto">
+                    <img src={isaac} alt={"Profile Photo"} height={250}/>
+                </div>
                 <h1>Isaac Pearson&nbsp;</h1>
                 <h3>Junior Software Developer&nbsp;</h3>
                 <hr></hr>
+
                     <p>Motivated Computer Science student seeking internship or employment in Software
                         Development to gain hands-on experience. Outgoing and friendly with strong drive to succeed
                         and be involved in daily activities.
