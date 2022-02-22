@@ -7,8 +7,6 @@ function App() {
 
         <body>
         <header>
-
-
             <section className="profileHeader">
 
                 <div className="profilePhoto">
@@ -17,14 +15,13 @@ function App() {
                 <h1>Isaac Pearson&nbsp;</h1>
                 <h3>Junior Software Developer&nbsp;</h3>
                 <hr></hr>
-
-                    <p>Motivated Computer Science student seeking internship or employment in Software
+                    <p>
+                        Motivated Computer Science student seeking internship or employment in Software
                         Development to gain hands-on experience. Outgoing and friendly with strong drive to succeed
                         and be involved in daily activities.
                         In-depth knowledge of Java, JavaScript, Python, C# and Ruby. Skilled in developing,
                         optimizing, and reworking systems to meet specific customer requirements.
                     </p>
-
             </section>
 
         </header>
@@ -38,7 +35,6 @@ function App() {
                             <p className="contact"><span>Phone :</span> 765-667-5113</p>
                             <p className="contact"><span>Address :</span> Marion IN, United States</p>
                         </div>
-
             </section>
 
             <section className="section1">
@@ -46,21 +42,30 @@ function App() {
                 <hr className="sectionTitleRule"></hr>
                     <hr className="sectionTitleRule2"></hr>
                         <div className="section1Content">
-                            <p>
-                                <ul className="unorderedLists">
-                                    <li className="languages">
+                                 <p className={"floatLeft"}>
+                                     <p className="languages">
                                         Java - C# - Python - Ruby - .NET - HTML - Javascript - CSS - React - PHP
+                                     </p>
+                                     <p className="languages"> Experienced with Agile Methodologies</p>
+                                     <p className="languages">&nbsp;Analytical Thinking and Problem Solving</p>
+                                     <p className="languages">&nbsp;Source and Version Control: Git, GitHub</p>
+                                     <p className="languages">&nbsp;Software Documentation Control</p>
+                                     <p className="languages">&nbsp;Web Programming</p>
+                                     <p className="languages">&nbsp;Eagerness to Learn New Technologies</p>
+                                 </p>
 
-                                    </li>
-
-                                    <li className="languages"> Experienced with Agile Methodologies</li>
-                                    <li className="languages">&nbsp;Analytical Thinking and Problem Solving</li>
-                                    <li className="languages">&nbsp;Source and Version Control: Git, GitHub</li>
-                                    <li className="languages">&nbsp;Software Documentation Control</li>
-                                    <li className="languages">&nbsp;Web Programming</li>
-                                    <li className="languages">&nbsp;Eagerness to Learn New Technologies</li>
-                                </ul>
+                            <p className="floatRight">
+                                <p>
+                                    Java - C# - Python - Ruby - .NET - HTML - Javascript - CSS - React - PHP
+                                </p>
+                                     <p className="languages"> Experienced with Agile Methodologies</p>
+                                     <p className="languages">&nbsp;Analytical Thinking and Problem Solving</p>
+                                     <p className="languages">&nbsp;Source and Version Control: Git, GitHub</p>
+                                     <p className="languages">&nbsp;Software Documentation Control</p>
+                                     <p className="languages">&nbsp;Web Programming</p>
+                                     <p className="languages">&nbsp;Eagerness to Learn New Technologies</p>
                             </p>
+
                         </div>
             </section>
 
@@ -68,7 +73,6 @@ function App() {
                 <h2 className="sectionTitle">Experience&nbsp;</h2>
                 <hr className="sectionTitleRule"></hr>
                     <hr className="sectionTitleRule2"></hr>
-
                         <article className="section2Content">
                             <h2 className="experienceHeaders">Capstone Project - Software Developer Internship&nbsp;</h2>
                             <h3 className="sectionContentSubTitle">Intern Software Developer
@@ -105,14 +109,13 @@ function App() {
                                 <li>Checked fields for rocks or other obstacles to prepare land for tilling and physical
                                     preparation for spring planting.
                                 </li>
-
                             </ul>
                         </article>
             </section>
             <aside className="externalResourcesNav">
                 <span className="stretch"></span>
                 <div className="externalResources"><a href="https://www.linkedin.com/in/isaac-pearson-6bba271a2/"
-                                                      title="Behance Link">LINKED-IN</a></div>
+                                                      title="Linked-In Link">LINKED-IN</a></div>
                 <span className="stretch"></span>
                 <div className="externalResources"><a href="https://github.com/isaacmichael"
                                                       title="Github Link">GITHUB</a></div>

@@ -27,13 +27,13 @@ header .logoPlaceholder span {
   line-height: 53px;
 }
 header .profilePhoto {
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   opacity: 95%;
   width: 259px;
   border-radius: 50%;
   height: 259px;
-  clear: both;
+  float: left;
 }
 header .profileHeader h1 {
   font-family: 'Montserrat', sans-serif;
@@ -79,6 +79,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
   display: block;
 }
 .section1 .sectionTitle, .section2 .sectionTitle {
+  padding-top: 2.5%;
   font-family: 'Montserrat', sans-serif;
   color: rgba(77,68,68,1.00);
   font-size: 18px;
@@ -104,6 +105,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
   color: rgba(77,68,68,1.00);
 }
 .mainContent .section1 .section1Content span {
+
   color: rgba(146, 146, 146, 1.00);
   font-family: sans-serif;
 }
@@ -366,7 +368,7 @@ footer .footerNote span {
     display: block;
     margin-top: 0%;
     margin-right: 0%;
-    margin-left: 26%;
+    margin-left: 10%;
     margin-bottom: 0%;
     font-family: sans-serif;
   }
@@ -423,5 +425,17 @@ footer .footerNote span {
 
 .contact{
   color: rgba(77,68,68,1.00);
+}
+
+.floatRight{
+  float: right;
+  margin: 0 1.5%;
+  width: 63%;
+}
+
+.floatLeft{
+  float: left;
+  margin: 0 1.5%;
+  width: 30%;
 }
 
