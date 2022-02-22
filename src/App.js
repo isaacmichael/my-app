@@ -28,8 +28,7 @@ function App() {
         <section className="mainContent">
             <section className="section1">
                 <h2 className="sectionTitle">Contact Information&nbsp;</h2>
-                <hr className="sectionTitleRule"></hr>
-                    <hr className="sectionTitleRule2"></hr>
+                    <hr></hr>
                         <div className="section1Content">
                             <p className="contact"><span>Email :</span> isaacmichael9@gmail.com</p>
                             <p className="contact"><span>Phone :</span> 765-667-5113</p>
@@ -39,8 +38,7 @@ function App() {
 
             <section className="section1">
                 <h2 className="sectionTitle">Programming Languages&nbsp;</h2>
-                <hr className="sectionTitleRule"></hr>
-                    <hr className="sectionTitleRule2"></hr>
+                    <hr></hr>
                         <div className="section1Content">
                                  <p className={"floatLeft"}>
                                      <p className="languages">
@@ -71,8 +69,7 @@ function App() {
 
             <section className="section2">
                 <h2 className="sectionTitle">Experience&nbsp;</h2>
-                <hr className="sectionTitleRule"></hr>
-                    <hr className="sectionTitleRule2"></hr>
+                    <hr></hr>
                         <article className="section2Content">
                             <h2 className="experienceHeaders">Capstone Project - Software Developer Internship&nbsp;</h2>
                             <h3 className="sectionContentSubTitle">Intern Software Developer
