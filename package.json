@@ -2,7 +2,7 @@
   "name": "untitled",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/isaacmichael/isaacmichael.github.io",
+  "homepage": "https://github.com/isaacmichael.github.io/my-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
