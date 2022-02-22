@@ -29,6 +29,7 @@ header .logoPlaceholder span {
 header .profilePhoto {
   padding-top: 5%;
   padding-bottom: 5%;
+  opacity: 95%;
   width: 259px;
   border-radius: 50%;
   height: 259px;
@@ -95,7 +96,8 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
   padding: 0px;
 }
 .mainContent .section1 .section1Content {
-  padding-top: 2%;
+  padding-top: 3%;
+  padding-bottom: 3%;
   font-family: ProximaNova;
   font-size: 14px;
   font-weight: 100;
@@ -417,5 +419,9 @@ footer .footerNote span {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.8;
+}
+
+.contact{
+  color: rgba(77,68,68,1.00);
 }
 

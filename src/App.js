@@ -34,9 +34,9 @@ function App() {
                 <hr className="sectionTitleRule"></hr>
                     <hr className="sectionTitleRule2"></hr>
                         <div className="section1Content">
-                            <p><span>Email :</span> isaacmichael9@gmail.com</p>
-                            <p><span>Phone :</span> 765-667-5113</p>
-                            <p><span>Address :</span> Marion IN, United States</p>
+                            <p className="contact"><span>Email :</span> isaacmichael9@gmail.com</p>
+                            <p className="contact"><span>Phone :</span> 765-667-5113</p>
+                            <p className="contact"><span>Address :</span> Marion IN, United States</p>
                         </div>
 
             </section>
