@@ -10,6 +10,7 @@ body {
   padding-right: 2.275%;
 }
 .mainContent .section1 .sectionTitle {
+  float: bottom;
 }
 
 /* Header */
@@ -27,7 +28,7 @@ header .logoPlaceholder span {
   line-height: 53px;
 }
 header .profilePhoto {
-  padding-top: 2%;
+  padding-top: 3%;
   padding-bottom: 2%;
   opacity: 95%;
   width: 259px;
@@ -98,15 +99,15 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
   padding: 0px;
 }
 .mainContent .section1 .section1Content {
+  text-align: center;
   padding-top: 3%;
-  padding-bottom: 3%;
+  padding-bottom: 0%;
   font-family: ProximaNova;
   font-size: 14px;
   font-weight: 100;
   color: rgba(77,68,68,1.00);
 }
 .mainContent .section1 .section1Content span {
-
   color: rgba(146, 146, 146, 1.00);
   font-family: sans-serif;
 }
@@ -428,17 +429,21 @@ footer .footerNote span {
 
 .contact{
   color: rgba(77,68,68,1.00);
+  float: inside;
 }
 
 .floatRight{
   float: right;
-  margin: 0 1.5%;
-  width: 63%;
+  margin-left: auto;
+  width: 50%;
 }
 
 .floatLeft{
   float: left;
-  margin: 0 1.5%;
-  width: 30%;
+  margin-right: auto;
+  width: 50%;
+}
+.floatBottom{
+  float: bottom;
 }
 

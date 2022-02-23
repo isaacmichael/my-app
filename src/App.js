@@ -7,21 +7,20 @@ function App() {
 
         <body>
         <header>
-            <section className="profileHeader">
+            <div className="profilePhoto">
+                <img src={isaac} alt={"Profile Photo"} height={250}/>
+            </div>
 
-                <div className="profilePhoto">
-                    <img src={isaac} alt={"Profile Photo"} height={250}/>
-                </div>
+            <section className="profileHeader">
                 <h1>Isaac Pearson&nbsp;</h1>
                 <h3>Junior Software Developer&nbsp;</h3>
                 <hr></hr>
-                    <p>
+                    <p className>
                         Motivated Computer Science student seeking internship or employment in Software
                         Development to gain hands-on experience. Skilled in developing, optimizing, and reworking
                         systems to meet specific customer requirements.
                     </p>
             </section>
-
         </header>
         <section className="mainContent">
             <section className="section1">
@@ -48,9 +47,6 @@ function App() {
                                  </p>
 
                             <p className="floatRight">
-                                <p>
-                                    Java - C# - Python - Ruby - .NET - HTML - Javascript - CSS - React - PHP
-                                </p>
                                      <p className="languages">&nbsp;Software Documentation Control</p>
                                      <p className="languages">&nbsp;Web Programming</p>
                                      <p className="languages">&nbsp;Eagerness to Learn New Technologies</p>
