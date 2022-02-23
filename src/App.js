@@ -1,4 +1,4 @@
-import isaac from './isaac.jpg';
+import isaac from './isaac.png';
 import './App.css';
 
 
