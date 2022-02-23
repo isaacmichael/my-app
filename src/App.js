@@ -17,10 +17,8 @@ function App() {
                 <hr></hr>
                     <p>
                         Motivated Computer Science student seeking internship or employment in Software
-                        Development to gain hands-on experience. Outgoing and friendly with strong drive to succeed
-                        and be involved in daily activities.
-                        In-depth knowledge of Java, JavaScript, Python, C# and Ruby. Skilled in developing,
-                        optimizing, and reworking systems to meet specific customer requirements.
+                        Development to gain hands-on experience. Skilled in developing, optimizing, and reworking
+                        systems to meet specific customer requirements.
                     </p>
             </section>
 
@@ -47,18 +45,12 @@ function App() {
                                      <p className="languages"> Experienced with Agile Methodologies</p>
                                      <p className="languages">&nbsp;Analytical Thinking and Problem Solving</p>
                                      <p className="languages">&nbsp;Source and Version Control: Git, GitHub</p>
-                                     <p className="languages">&nbsp;Software Documentation Control</p>
-                                     <p className="languages">&nbsp;Web Programming</p>
-                                     <p className="languages">&nbsp;Eagerness to Learn New Technologies</p>
                                  </p>
 
                             <p className="floatRight">
                                 <p>
                                     Java - C# - Python - Ruby - .NET - HTML - Javascript - CSS - React - PHP
                                 </p>
-                                     <p className="languages"> Experienced with Agile Methodologies</p>
-                                     <p className="languages">&nbsp;Analytical Thinking and Problem Solving</p>
-                                     <p className="languages">&nbsp;Source and Version Control: Git, GitHub</p>
                                      <p className="languages">&nbsp;Software Documentation Control</p>
                                      <p className="languages">&nbsp;Web Programming</p>
                                      <p className="languages">&nbsp;Eagerness to Learn New Technologies</p>
