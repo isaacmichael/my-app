@@ -1,5 +1,5 @@
 import React from "react"
-import './simpleGridTemplate.css';
+
 
 
 const Home = () => {
