@@ -7,16 +7,16 @@ const Home = () => {
 
         <body>
 
-        <div class="container">
-            <header class="header">
-                <h4 class="logo">&nbsp;</h4>
+        <div className="container">
+            <header className="header2">
+                <h4 className="logo">&nbsp;</h4>
             </header>
 
-            <section class="intro">
-                <div class="column">
+            <section className="intro">
+                <div className="column">
                     <h3>Isaac Pearson&nbsp;</h3>
                     <img src="images/profile.png" alt="" class="profile"/></div>
-                <div class="column">
+                <div className="column">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodd tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -27,64 +27,64 @@ const Home = () => {
                         voluptate velit esse cillum dolore eu fugiat nulla</p>
                 </div>
             </section>
-            <div class="gallery">
-                <div class="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+            <div className="gallery">
+                <div className="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
                     <h4>TITLE</h4>
-                    <p class="tag">HTML, CSS, JS, WordPress</p>
-                    <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p className="tag">HTML, CSS, JS, WordPress</p>
+                    <p className="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div class="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+                <div className="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
                     <h4>TITLE</h4>
-                    <p class="tag">HTML, CSS, JS, WordPress</p>
-                    <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p className="tag">HTML, CSS, JS, WordPress</p>
+                    <p className="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div class="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+                <div className="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
                     <h4>TITLE</h4>
-                    <p class="tag">HTML, CSS, JS, WordPress</p>
-                    <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p className="tag">HTML, CSS, JS, WordPress</p>
+                    <p className="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div class="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+                <div className="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
                     <h4>TITLE</h4>
-                    <p class="tag">HTML, CSS, JS, WordPress</p>
-                    <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p className="tag">HTML, CSS, JS, WordPress</p>
+                    <p className="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
-            <div class="gallery">
-                <div class="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+            <div className="gallery">
+                <div className="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
                     <h4>TITLE</h4>
-                    <p class="tag">HTML, CSS, JS, WordPress</p>
-                    <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p className="tag">HTML, CSS, JS, WordPress</p>
+                    <p className="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div class="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+                <div className="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
                     <h4>TITLE</h4>
-                    <p class="tag">HTML, CSS, JS, WordPress</p>
-                    <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p className="tag">HTML, CSS, JS, WordPress</p>
+                    <p className="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div class="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+                <div className="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
                     <h4>TITLE</h4>
-                    <p class="tag">HTML, CSS, JS, WordPress</p>
-                    <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p className="tag">HTML, CSS, JS, WordPress</p>
+                    <p className="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div class="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+                <div className="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
                     <h4>TITLE</h4>
-                    <p class="tag">HTML, CSS, JS, WordPress</p>
-                    <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p className="tag">HTML, CSS, JS, WordPress</p>
+                    <p className="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
 
             <footer id="contact">
-                <p class="hero_header">GET IN TOUCH WITH ME</p>
-                <div class="button">EMAIL ME</div>
+                <p className="hero_header">GET IN TOUCH WITH ME</p>
+                <div className="button">EMAIL ME</div>
             </footer>
-            <div class="copyright">&copy;2021 - <strong>GRID</strong></div>
+            <div className="copyright">&copy;2021 - <strong>GRID</strong></div>
         </div>
 
         </body>
