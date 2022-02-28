@@ -2,33 +2,34 @@ import isaac from './isaac.png';
 import './App.css';
 import { Routes, Route, NavLink as Link } from "react-router-dom"
 import React from "react";
-import Hobbies from "./Hobbies";
+import Resume from "./Resume";
 
 
 function App() {
     return (
         <div className="App">
-        <div>
-            <nav>
-                <ul>
-                    <li>
-                        <Link to={"/"} activeClassName="active">
-                            Home
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={"hobbies"} activeClassName="active">
-                            Hobbies
-                        </Link>
-                    </li>
-                </ul>
-            </nav>
+            <div>
+                <nav>
+                    <ul>
+
+                        <li>
+                            <Link to={"/"} activeClassName="active" end>
+                                Home
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to={"Resume"} activeClassName="active" end>
+                                Resume
+                            </Link>
+                        </li>
+                    </ul>
+                </nav>
         </div>
 
-        <div>
+        <div className={"main"}>
             <Routes>
                 <Route path="/" element={<Home />}></Route>
-                <Route path="hobbies" element={<Hobbies />}></Route>
+                <Route path="Resume" element={<Resume />}></Route>
                 <Route path="*" element={<NotFound />}></Route>
             </Routes>
         </div>
@@ -40,7 +41,7 @@ function App() {
 }
 
 export const Home = () => {
-    return <div>You are in Home Page</div>
+    return <h2>Home</h2>
 
 }
 export const NotFound = () => {

@@ -435,13 +435,15 @@ footer .footerNote span {
 .floatRight{
   float: right;
   margin-left: auto;
-  width: 50%;
+  margin-right: auto;
+  width: 48%;
 }
 
 .floatLeft{
   float: left;
   margin-right: auto;
-  width: 50%;
+  margin-left: auto;
+  width: 48%;
 }
 .floatBottom{
   float: bottom;
