@@ -1,12 +1,12 @@
 import React from "react"
 import isaac from "./isaac.png";
 import './App.css';
-import {Link} from "react-router-dom";
+
 
 const Resume = () => {
     return(
     <body>
-    <header>
+    <header className={"header"}>
         <div className="profilePhoto">
             <img src={isaac} alt={"Profile Photo"} height={250}/>
         </div>

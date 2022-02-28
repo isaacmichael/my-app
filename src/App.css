@@ -448,4 +448,7 @@ footer .footerNote span {
 .floatBottom{
   float: bottom;
 }
+.header{
+  background-color: white;
+}
 

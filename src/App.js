@@ -1,8 +1,8 @@
-import isaac from './isaac.png';
-import './App.css';
+
 import { Routes, Route, NavLink as Link } from "react-router-dom"
 import React from "react";
 import Resume from "./Resume";
+import Home from "./Home"
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
                     <ul>
 
                         <li>
-                            <Link to={"/"} activeClassName="active" end>
+                            <Link to={"Home"} activeClassName="active" end>
                                 Home
                             </Link>
                         </li>
@@ -28,7 +28,7 @@ function App() {
 
         <div className={"main"}>
             <Routes>
-                <Route path="/" element={<Home />}></Route>
+                <Route path="Home" element={<Home />}></Route>
                 <Route path="Resume" element={<Resume />}></Route>
                 <Route path="*" element={<NotFound />}></Route>
             </Routes>
@@ -40,10 +40,7 @@ function App() {
 );
 }
 
-export const Home = () => {
-    return <h2>Home</h2>
 
-}
 export const NotFound = () => {
     return <div>Page Not Found!</div>
 }
