@@ -30,7 +30,6 @@ function App() {
             <Routes>
                 <Route path="Home" element={<Home />}></Route>
                 <Route path="Resume" element={<Resume />}></Route>
-                <Route path="*" element={<NotFound />}></Route>
             </Routes>
         </div>
 
@@ -40,8 +39,6 @@ function App() {
 );
 }
 
-
-export const NotFound = () => {
-    return <div>Page Not Found!</div>
-}
 export default App;
+
+

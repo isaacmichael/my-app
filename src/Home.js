@@ -1,4 +1,5 @@
 import React from "react"
+import styles from './home.module.css';
 
 
 
@@ -7,16 +8,16 @@ const Home = () => {
 
         <body>
 
-        <div className="container">
-            <header className="header2">
-                <h4 className="logo">&nbsp;</h4>
+        <div className={styles.container}>
+            <header className={styles.header}>
+                <h4 className={styles.logo}>&nbsp;</h4>
             </header>
 
-            <section className="intro">
-                <div className="column">
+            <section className={styles.intro}>
+                <div className={styles.column}>
                     <h3>Isaac Pearson&nbsp;</h3>
-                    <img src="images/profile.png" alt="" class="profile"/></div>
-                <div className="column">
+                    <img src="images/profile.png" alt="" className={styles.profile}/></div>
+                <div className={styles.column}>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodd tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -27,64 +28,64 @@ const Home = () => {
                         voluptate velit esse cillum dolore eu fugiat nulla</p>
                 </div>
             </section>
-            <div className="gallery">
-                <div className="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+            <div className={styles.gallery}>
+                <div className={styles.thumbnail}><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class={styles.cards}/></a>
                     <h4>TITLE</h4>
-                    <p className="tag">HTML, CSS, JS, WordPress</p>
-                    <p className="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p className={styles.tag}>HTML, CSS, JS, WordPress</p>
+                    <p className={styles.text_column}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div className="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+                <div className={styles.thumbnail}><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class={styles.cards}/></a>
                     <h4>TITLE</h4>
-                    <p className="tag">HTML, CSS, JS, WordPress</p>
-                    <p className="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p className={styles.tag}>HTML, CSS, JS, WordPress</p>
+                    <p className={styles.text_column}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div className="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+                <div className={styles.thumbnail}><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class={styles.cards}/></a>
                     <h4>TITLE</h4>
-                    <p className="tag">HTML, CSS, JS, WordPress</p>
-                    <p className="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p className={styles.tag}>HTML, CSS, JS, WordPress</p>
+                    <p className={styles.text_column}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div className="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+                <div className={styles.thumbnail}><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class={styles.cards}/></a>
                     <h4>TITLE</h4>
-                    <p className="tag">HTML, CSS, JS, WordPress</p>
-                    <p className="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p className={styles.tag}>HTML, CSS, JS, WordPress</p>
+                    <p className={styles.text_column}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
-            <div className="gallery">
-                <div className="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+            <div className={styles.gallery}>
+                <div className={styles.thumbnail}><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
                     <h4>TITLE</h4>
-                    <p className="tag">HTML, CSS, JS, WordPress</p>
-                    <p className="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p className={styles.tag}>HTML, CSS, JS, WordPress</p>
+                    <p className={styles.text_column}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div className="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+                <div className={styles.thumbnail}><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
                     <h4>TITLE</h4>
-                    <p className="tag">HTML, CSS, JS, WordPress</p>
-                    <p className="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p className={styles.tag}>HTML, CSS, JS, WordPress</p>
+                    <p className={styles.text_column}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div className="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+                <div className={styles.thumbnail}><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class={styles.cards}/></a>
                     <h4>TITLE</h4>
-                    <p className="tag">HTML, CSS, JS, WordPress</p>
-                    <p className="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p className={styles.tag}>HTML, CSS, JS, WordPress</p>
+                    <p className={styles.text_column}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div className="thumbnail"><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+                <div className={styles.thumbnail}><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class={styles.cards}/></a>
                     <h4>TITLE</h4>
-                    <p className="tag">HTML, CSS, JS, WordPress</p>
-                    <p className="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p className={styles.tag}>HTML, CSS, JS, WordPress</p>
+                    <p className={styles.text_column}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
 
-            <footer id="contact">
-                <p className="hero_header">GET IN TOUCH WITH ME</p>
-                <div className="button">EMAIL ME</div>
+            <footer id={styles.contact}>
+                <p className={styles.hero_header}>GET IN TOUCH WITH ME</p>
+                <div className={styles.button}>EMAIL ME</div>
             </footer>
-            <div className="copyright">&copy;2021 - <strong>GRID</strong></div>
+            <div className={styles.copyright}>&copy;2021 - <strong>GRID</strong></div>
         </div>
 
         </body>

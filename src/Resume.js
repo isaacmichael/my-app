@@ -1,17 +1,17 @@
 import React from "react"
 import isaac from "./isaac.png";
-import './App.css';
+import styles from './resume.module.css';
 
 
 const Resume = () => {
     return(
     <body>
-    <header className={"header"}>
-        <div className="profilePhoto">
+    <header className={styles.header}>
+        <div className={styles.profilePhoto}>
             <img src={isaac} alt={"Profile Photo"} height={250}/>
         </div>
 
-        <section className="profileHeader">
+        <section className={styles.profileHeader}>
             <h1>Isaac Pearson&nbsp;</h1>
             <h3>Junior Software Developer&nbsp;</h3>
             <hr></hr>
@@ -22,55 +22,55 @@ const Resume = () => {
             </p>
         </section>
     </header>
-    <section className="mainContent">
-        <section className="section1">
-            <h2 className="sectionTitle">Contact Information&nbsp;</h2>
+    <section className={styles.mainContent}>
+        <section className={styles.section1}>
+            <h2 className={styles.sectionTitle}>Contact Information&nbsp;</h2>
             <hr></hr>
-            <div className="section1Content">
-                <p className="contact"><span>Email :</span> isaacmichael9@gmail.com</p>
-                <p className="contact"><span>Phone :</span> 765-667-5113</p>
-                <p className="contact"><span>Address :</span> Marion IN, United States</p>
+            <div className={styles.section1Content}>
+                <p className={styles.contact}><span>Email :</span> isaacmichael9@gmail.com</p>
+                <p className={styles.contact}><span>Phone :</span> 765-667-5113</p>
+                <p className={styles.contact}><span>Address :</span> Marion IN, United States</p>
             </div>
         </section>
 
-        <section className="section1">
-            <h2 className="sectionTitle">Programming Languages&nbsp;</h2>
+        <section className={styles.section1}>
+            <h2 className={styles.sectionTitle}>Programming Languages&nbsp;</h2>
             <hr></hr>
-            <div className="section1Content">
-                <p className={"floatLeft"}>
-                    <p className="languages">
+            <div className={styles.section1Content}>
+                <p className={styles.floatLeft}>
+                    <p className={styles.languages}>
                         Java - C# - Python - Ruby - .NET - HTML - Javascript - CSS - React - PHP
                     </p>
-                    <p className="languages"> Experienced with Agile Methodologies</p>
-                    <p className="languages">&nbsp;Analytical Thinking and Problem Solving</p>
-                    <p className="languages">&nbsp;Source and Version Control: Git, GitHub</p>
+                    <p className={styles.languages}> Experienced with Agile Methodologies</p>
+                    <p className={styles.languages}>&nbsp;Analytical Thinking and Problem Solving</p>
+                    <p className={styles.languages}>&nbsp;Source and Version Control: Git, GitHub</p>
                 </p>
 
-                <p className="floatRight">
-                    <p className="languages">&nbsp;Software Documentation Control</p>
-                    <p className="languages">&nbsp;Web Programming</p>
-                    <p className="languages">&nbsp;Eagerness to Learn New Technologies</p>
+                <p className={styles.floatRight}>
+                    <p className={styles.languages}>&nbsp;Software Documentation Control</p>
+                    <p className={styles.languages}>&nbsp;Web Programming</p>
+                    <p className={styles.languages}>&nbsp;Eagerness to Learn New Technologies</p>
                 </p>
 
             </div>
         </section>
 
-        <section className="section2">
-            <h2 className="sectionTitle">Experience&nbsp;</h2>
+        <section className={styles.section2}>
+            <h2 className={styles.sectionTitle}>Experience&nbsp;</h2>
             <hr></hr>
-            <article className="section2Content">
-                <h2 className="experienceHeaders">Capstone Project - Software Developer Internship&nbsp;</h2>
-                <h3 className="sectionContentSubTitle">Intern Software Developer
+            <article className={styles.section2Content}>
+                <h2 className={styles.experienceHeaders}>Capstone Project - Software Developer Internship&nbsp;</h2>
+                <h3 className={styles.sectionContentSubTitle}>Intern Software Developer
                     @ <strong>LeadSigma</strong> / Aug 2021 - May 2022 / Muncie, IN&nbsp;&nbsp;</h3>
-                <p className="sectionContent"> Part of a Capstone Team at Ball State University, involved with
+                <p className={styles.sectionContent}> Part of a Capstone Team at Ball State University, involved with
                     creating or modifying a Ruby on Rails API / React UI for onboarding users and establishing
                     automated payment processes through Stripe services . &nbsp; </p>
             </article>
-            <article className="section2Content">
-                <h2 className="experienceHeaders"> Best-One Tire Upland&nbsp;</h2>
-                <h3 className="sectionContentSubTitle">Service Technician / Aug&nbsp; 2018 - Aug 2020 / Uplan,
+            <article className={styles.section2Content}>
+                <h2 className={styles.experienceHeaders}> Best-One Tire Upland&nbsp;</h2>
+                <h3 className={styles.sectionContentSubTitle}>Service Technician / Aug&nbsp; 2018 - Aug 2020 / Uplan,
                     IN&nbsp;</h3>
-                <ul className="unorderedLists">
+                <ul className={styles.unorderedLists}>
                     <li>Completed preventive maintenance and unscheduled service needs to keep vehicles in
                         optimal condition.
                     </li>
@@ -82,11 +82,11 @@ const Resume = () => {
                     <li>Experienced with basic Auto Services</li>
                 </ul>
             </article>
-            <article className="section2Content">
-                <h2 className="experienceHeaders"> Pearson Brothers Farms&nbsp;</h2>
-                <h3 className="sectionContentSubTitle">Farm Hand / May 2016 - May 2020 / Hartford City,
+            <article className={styles.section2Content}>
+                <h2 className={styles.experienceHeaders}> Pearson Brothers Farms&nbsp;</h2>
+                <h3 className={styles.sectionContentSubTitle}>Farm Hand / May 2016 - May 2020 / Hartford City,
                     IN&nbsp; &nbsp;&nbsp;</h3>
-                <ul className="unorderedLists">
+                <ul className={styles.unorderedLists}>
                     <li>Plowed and tilled fields to prepare soil for crop planting.&nbsp;</li>
                     <li>Maintained and repaired farming equipment to provide consistent usability, prime
                         operational condition and alleviate downtime.&nbsp; </li>
@@ -97,19 +97,19 @@ const Resume = () => {
                 </ul>
             </article>
         </section>
-        <aside className="externalResourcesNav">
-            <span className="stretch"></span>
-            <div className="externalResources"><a href="https://www.linkedin.com/in/isaac-pearson-6bba271a2/"
+        <aside className={styles.externalResourcesNav}>
+            <span className={styles.stretch}></span>
+            <div className={styles.externalResources}><a href="https://www.linkedin.com/in/isaac-pearson-6bba271a2/"
                                                   title="Linked-In Link">LINKED-IN</a></div>
-            <span className="stretch"></span>
-            <div className="externalResources"><a href="https://github.com/isaacmichael"
+            <span className={styles.stretch}></span>
+            <div className={styles.externalResources}><a href="https://github.com/isaacmichael"
                                                   title="Github Link">GITHUB</a></div>
         </aside>
     </section>
     <footer>
         <hr></hr>
-        <p className="footerDisclaimer">2022</p>
-        <p className="footerNote">Isaac Pearson</p>
+        <p className={styles.footerDisclaimer}>2022</p>
+        <p className={styles.footerNote}>Isaac Pearson</p>
 
 
 
