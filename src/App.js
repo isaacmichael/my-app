@@ -1,5 +1,5 @@
 
-import { Routes, Route, NavLink as Link } from "react-router-dom"
+import {Routes, Route, NavLink as Link, Redirect, BrowserRouter, Switch, NavLink} from "react-router-dom"
 import React from "react";
 import Resume from "./Resume";
 import Home from "./Home"
@@ -13,23 +13,29 @@ function App() {
                     <ul>
 
                         <li>
-                            <Link to={"Home"} activeClassName="active" end>
+                            <NavLink exact to={"/"} activeClassName="active" >
                                 Home
-                            </Link>
+                            </NavLink>
                         </li>
                         <li>
-                            <Link to={"Resume"} activeClassName="active" end>
+                            <NavLink exact to={"Resume"} activeClassName="active" end>
                                 Resume
-                            </Link>
+                            </NavLink>
                         </li>
                     </ul>
                 </nav>
+
+
         </div>
 
+
         <div className={"main"}>
+
             <Routes>
-                <Route path="Home" element={<Home />}></Route>
-                <Route path="Resume" element={<Resume />}></Route>
+                <Route exact path="/" element={<Home />}></Route>
+                <Route exact path="/Resume" element={<Resume />}></Route>
+
+
             </Routes>
         </div>
 
