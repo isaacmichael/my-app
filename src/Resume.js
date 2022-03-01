@@ -5,15 +5,15 @@ import styles from './resume.module.css';
 
 const Resume = () => {
     return(
-    <body>
+    <body className={styles.body}>
     <header className={styles.header}>
         <div className={styles.profilePhoto}>
             <img src={isaac} alt={"Profile Photo"} height={250}/>
         </div>
 
         <section className={styles.profileHeader}>
-            <h1>Isaac Pearson&nbsp;</h1>
-            <h3>Junior Software Developer&nbsp;</h3>
+            <h1 className={styles.h1}>Isaac Pearson&nbsp;</h1>
+            <h3 className={styles.h3}>Junior Software Developer&nbsp;</h3>
             <hr></hr>
             <p className>
                 Motivated Computer Science student seeking internship or employment in Software
@@ -106,13 +106,10 @@ const Resume = () => {
                                                   title="Github Link">GITHUB</a></div>
         </aside>
     </section>
-    <footer>
-        <hr></hr>
+    <footer className={styles.footer}>
+        <hr className={styles.hr}></hr>
         <p className={styles.footerDisclaimer}>2022</p>
         <p className={styles.footerNote}>Isaac Pearson</p>
-
-
-
     </footer>
     </body>
     );

@@ -6,7 +6,7 @@ import styles from './home.module.css';
 const Home = () => {
     return (
 
-        <body>
+        <body className={styles.body}>
 
         <div className={styles.container}>
             <header className={styles.header}>
