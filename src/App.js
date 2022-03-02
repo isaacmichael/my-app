@@ -3,7 +3,7 @@ import {Routes, Route, NavLink as Link, Redirect, BrowserRouter, Switch, NavLink
 import React from "react";
 import Resume from "./Resume";
 import Home from "./Home"
-
+import Modeling from "./Modeling"
 
 function App() {
     return (
@@ -22,6 +22,12 @@ function App() {
                                 Resume
                             </NavLink>
                         </li>
+                        <li>
+                            <NavLink exact to={"Modeling"} activeClassName="active" end>
+                                3D Modeling
+                            </NavLink>
+
+                        </li>
                     </ul>
                 </nav>
 
@@ -34,6 +40,7 @@ function App() {
             <Routes>
                 <Route exact path="/my-app" element={<Home />}></Route>
                 <Route exact path="/Resume" element={<Resume />}></Route>
+                <Route exact path="/Modeling" element={<Modeling />}></Route>
             </Routes>
         </div>
 
