@@ -16,36 +16,40 @@ const Home = () => {
             <section className={styles.intro}>
                 <div className={styles.column}>
                     <h3>Isaac Pearson&nbsp;</h3>
-                    <img src="images/profile.png" alt="" className={styles.profile}/></div>
+                    <img src="images/profile.png" alt="pic" className={styles.profile}/></div>
                 <div className={styles.column}>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodd tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla</p>
+                    <h1> <strong>About Me</strong></h1>
+                    <p>Hello, and welcome to my website! Below is some information about me.
+
+                    </p>
                 </div>
             </section>
             <div className={styles.gallery}>
                 <div className={styles.thumbnail}><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class={styles.cards}/></a>
-                    <h4>TITLE</h4>
-                    <p className={styles.tag}>HTML, CSS, JS, WordPress</p>
-                    <p className={styles.text_column}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h4>My Location</h4>
+                    <p className={styles.tag}>Marion, IN, US</p>
+                    <p className={styles.text_column}>Currently, I live in Marion, IN on the county line between Grant and Blackford
+                        counties
+
+                    </p>
                 </div>
                 <div className={styles.thumbnail}><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class={styles.cards}/></a>
-                    <h4>TITLE</h4>
-                    <p className={styles.tag}>HTML, CSS, JS, WordPress</p>
-                    <p className={styles.text_column}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h4>Education</h4>
+                    <p className={styles.tag}>Highschool & College</p>
+                    <p className={styles.text_column}>
+                        From kindergarten to 12th grade, I attended a private Christian school, The King's Academy, in Jonesboro, IN.
+                        I graduated from there with honors.&nbsp;
+                        For College I currently attend Ball State University in Muncie, Indiana. I will graduate this spring
+                        with a Bachelors in Computer Science.
+                    </p>
                 </div>
                 <div className={styles.thumbnail}><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class={styles.cards}/></a>
-                    <h4>TITLE</h4>
-                    <p className={styles.tag}>HTML, CSS, JS, WordPress</p>
-                    <p className={styles.text_column}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h4>Hobbies</h4>
+                    <p className={styles.tag}>3D Modeling / 3D Printing /Photogrammetry / CNC / Coding projects </p>
+                    <p className={styles.text_column}>
+
+
+                    </p>
                 </div>
                 <div className={styles.thumbnail}><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class={styles.cards}/></a>
                     <h4>TITLE</h4>

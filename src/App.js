@@ -13,7 +13,7 @@ function App() {
                     <ul>
 
                         <li>
-                            <NavLink exact to={"/"} activeClassName="active" end>
+                            <NavLink exact to={"/my-app"} activeClassName="active" end>
                                 Home
                             </NavLink>
                         </li>
@@ -32,7 +32,7 @@ function App() {
         <div className={"main"}>
 
             <Routes>
-                <Route exact path="/" element={<Home />}></Route>
+                <Route exact path="/my-app" element={<Home />}></Route>
                 <Route exact path="/Resume" element={<Resume />}></Route>
             </Routes>
         </div>
