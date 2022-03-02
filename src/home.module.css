@@ -5,6 +5,19 @@
     background-color: #FFFFFF;
     margin: 0;
 }
+.isaacPearson{
+    height: auto;
+    color: #FFFFFF;
+    padding-top: 5%;
+    font-size: 400%;
+    margin-bottom: 0%;
+}
+.smallIsaacPearson{
+
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* Container */
 .container {
     width: 90%;
@@ -90,9 +103,11 @@ header {
 .intro {
     background-color: #FFFFFF;
     padding-bottom: 35px;
+    width: 100%;
+    align-content: center;
 }
 .column {
-    width: 50%;
+    width: 100%;
     text-align: center;
     padding-top: 30px;
     float: left;

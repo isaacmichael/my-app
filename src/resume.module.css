@@ -50,7 +50,7 @@ header .profileHeader .h3 {
   font-weight: 700;
   line-height: 24px;
 }
-hr .hrr{
+hr .hr{
   background-color: rgba(208,207,207,1.00);
   height: 1px;
 }
@@ -448,7 +448,7 @@ footer .footerNote span {
 .floatBottom{
   float: bottom;
 }
-.header{
+header{
   background-color: white;
 }
 
