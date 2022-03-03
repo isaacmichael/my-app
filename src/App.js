@@ -19,12 +19,12 @@ function App() {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink exact to={"/my-app/Resume"} activeClassName="active" end>
+                            <NavLink exact to={"Resume"} activeClassName="active" end>
                                 Resume
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink exact to={"/my-app/Modeling"} activeClassName="active" end>
+                            <NavLink exact to={"Modeling"} activeClassName="active" end>
                                 3D Modeling
                             </NavLink>
                         </li>
@@ -41,8 +41,8 @@ function App() {
             <HashRouter>
                 <Routes>
                     <Route exact path="/my-app" element={<Home />}></Route>
-                    <Route exact path="my-app/Resume" element={<Resume />}></Route>
-                    <Route exact path="my-app/Modeling" element={<Modeling />}></Route>
+                    <Route exact path="/Resume" element={<Resume />}></Route>
+                    <Route exact path="/Modeling" element={<Modeling />}></Route>
                 </Routes>
             </HashRouter>
         </div>
