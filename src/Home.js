@@ -1,6 +1,10 @@
 import React from "react"
 import styles from './home.module.css';
 
+import location from './location.png'
+import cap from './cap.png'
+import hobby from './hobby.png'
+import work from './work.png'
 
 
 const Home = () => {
@@ -17,24 +21,20 @@ const Home = () => {
                 <div className={styles.column}>
                     <h1 className={styles.isaacPearson}>Isaac Pearson&nbsp;</h1>
                     <p className={styles.smallIsaacPearson}>
-                        [ˈīzək]
-                    </p>
-                    <p className={styles.smallIsaacPearson}>
-                        From the Hebrew word meaning "laughter"
+                        [ˈīzək] - A Computer Science student, obsessed with automating everything.
                     </p>
                 </div>
 
             </section>
             <div className={styles.gallery}>
-                <div className={styles.thumbnail}><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class={styles.cards}/></a>
+                <div className={styles.thumbnail}><a><img src={location} alt="location-pic"  class={styles.cards}/></a>
                     <h4>My Location</h4>
                     <p className={styles.tag}>Marion, IN, US</p>
-                    <p className={styles.text_column}>Currently, I live in Marion, IN on the county line between Grant and Blackford
-                        counties
-
+                    <p className={styles.text_column}>
+                        Currently, I live in Marion, IN with my fantastic wife, Victoria
                     </p>
                 </div>
-                <div className={styles.thumbnail}><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class={styles.cards}/></a>
+                <div className={styles.thumbnail}><a><img src={cap} alt="" width="2000" class={styles.cards}/></a>
                     <h4>Education</h4>
                     <p className={styles.tag}>Highschool & College</p>
                     <p className={styles.text_column}>
@@ -44,7 +44,7 @@ const Home = () => {
                         with a Bachelors in Computer Science.
                     </p>
                 </div>
-                <div className={styles.thumbnail}><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class={styles.cards}/></a>
+                <div className={styles.thumbnail}><a><img src={hobby} alt="" width="2000" class={styles.cards}/></a>
                     <h4>Hobbies</h4>
                     <p className={styles.tag}>3D Modeling / 3D Printing / Photogrammetry / CNC </p>
                     <p className={styles.text_column}>
@@ -56,7 +56,7 @@ const Home = () => {
                         You can see more of my 3D productions by selecting the 3D models in the menu above.
                     </p>
                 </div>
-                <div className={styles.thumbnail}><a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class={styles.cards}/></a>
+                <div className={styles.thumbnail}><a><img src={work} alt="" width="2000" class={styles.cards}/></a>
                     <h4>Work</h4>
                     <p className={styles.tag}>FarmHand, Maintenance Technician</p>
                     <p className={styles.text_column}>

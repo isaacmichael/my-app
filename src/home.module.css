@@ -119,11 +119,12 @@ header {
     color: #FFFFFF;
 }
 .cards {
-    width: 100%;
+    width: auto;
     height: auto;
-    max-width: 400px;
-    max-height: 200px;
-    opacity: 0.8;
+
+    max-width: 100px;
+    max-height: 100px;
+    opacity: 0.80;
 }
 .intro .column p {
     padding-left: 30px;
