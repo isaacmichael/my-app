@@ -4,6 +4,7 @@ import React from "react";
 import Resume from "./Resume";
 import Home from "./Home"
 import Modeling from "./Modeling"
+import Hobbies from "./Hobbies"
 
 function App() {
     return (
@@ -26,7 +27,8 @@ function App() {
                             <NavLink exact to={"Modeling"} activeClassName="active" end>
                                 3D Modeling
                             </NavLink>
-
+                        </li>
+                        <li>
                         </li>
                     </ul>
                 </nav>
