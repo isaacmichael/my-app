@@ -1,5 +1,5 @@
 
-import {Routes, Route, NavLink as Link, Redirect, BrowserRouter, Switch, NavLink, HashRouter} from "react-router-dom"
+import {Routes, Route, NavLink as Link, Redirect, BrowserRouter, Switch, NavLink} from "react-router-dom"
 import React from "react";
 import Resume from "./Resume";
 import Home from "./Home"
@@ -38,13 +38,12 @@ function App() {
 
 
         <div className={"main"}>
-            <HashRouter>
-                <Routes>
-                    <Route exact path="/my-app" element={<Home />}></Route>
-                    <Route exact path="/Resume" element={<Resume />}></Route>
-                    <Route exact path="/Modeling" element={<Modeling />}></Route>
-                </Routes>
-            </HashRouter>
+
+            <Routes>
+                <Route exact path="/my-app" element={<Home />}></Route>
+                <Route exact path="/Resume" element={<Resume />}></Route>
+                <Route exact path="/Modeling" element={<Modeling />}></Route>
+            </Routes>
         </div>
 
         </div>
