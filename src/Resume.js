@@ -70,7 +70,7 @@ const Resume = () => {
                 <h2 className={styles.experienceHeaders}> Best-One Tire Upland&nbsp;</h2>
                 <h3 className={styles.sectionContentSubTitle}>Service Technician / Aug&nbsp; 2018 - Aug 2020 / Uplan,
                     IN&nbsp;</h3>
-                <ul className={styles.unorderedLists}>
+                <ul className={styles.sectionContent}>
                     <li>Completed preventive maintenance and unscheduled service needs to keep vehicles in
                         optimal condition.
                     </li>
@@ -86,7 +86,7 @@ const Resume = () => {
                 <h2 className={styles.experienceHeaders}> Pearson Brothers Farms&nbsp;</h2>
                 <h3 className={styles.sectionContentSubTitle}>Farm Hand / May 2016 - May 2020 / Hartford City,
                     IN&nbsp; &nbsp;&nbsp;</h3>
-                <ul className={styles.unorderedLists}>
+                <ul className={styles.sectionContent}>
                     <li>Plowed and tilled fields to prepare soil for crop planting.&nbsp;</li>
                     <li>Maintained and repaired farming equipment to provide consistent usability, prime
                         operational condition and alleviate downtime.&nbsp; </li>

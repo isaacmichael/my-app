@@ -69,7 +69,7 @@ const Home = () => {
             </div>
 
 
-            <footer id={styles.contact}>
+            <footer id={styles.footer}>
                 <p className={styles.hero_header}>SEND ME AN EMAIL</p>
                 <div className={styles.button}>EMAIL ME</div>
             </footer>
