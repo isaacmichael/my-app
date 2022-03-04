@@ -46,6 +46,7 @@ const Modeling = () => {
                                 web-share
                                 src="https://sketchfab.com/models/9f871c53335b4b10bda56d19f14fb7e8/embed?autospin=1&autostart=1&preload=1"></iframe>
                     </div>
+                    <div><img src={elevationPic} alt="elevation Picture"  className={styles.picture} /></div>
                 </a>
                     <h4>3D model of crops</h4>
                     <p className={styles.tag}>Made in OpenDroneMap</p>
@@ -60,7 +61,7 @@ const Modeling = () => {
                     <h4>3D Model Of Crops</h4>
                     <p className={styles.tag}>Processed in Agisoft Metashape</p>
 
-                    <div className={styles.picture}><img src={elevationPic} alt="elevation Picture"  className={styles.cards}/></div>
+
 
 
                     <p className={styles.text_column}>Compiled # photos for this...</p>
