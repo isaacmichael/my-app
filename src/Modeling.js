@@ -1,5 +1,7 @@
 import React from "react"
-import styles from "./CssModules/home.module.css"
+import styles from "./CssModules/modeling.module.css"
+import elevationPic from "./Pictures/extras/wiseman height 2d profile.JPG"
+import hobby from "./Pictures/hobby.png";
 
 const Modeling = () => {
     return (
@@ -36,12 +38,18 @@ const Modeling = () => {
 
                     </p>
                 </div>
-                <div className={styles.thumbnail}><a href="#"><img
-                    src="file:///C|/Users/isaac/AppData/Roaming/Adobe/Dreamweaver 2021/en_US/Configuration/Temp/Assets/eam292C.tmp/images/bkg_06.jpg"
-                    alt="" width="2000" className="cards"/></a>
-                    <h4>TITLE</h4>
-                    <p className={styles.tag}>HTML, CSS, JS, WordPress</p>
-                    <p className={styles.text_column}>Pictures of 3D prints of 3D models</p>
+                <div className={styles.thumbnail}><a>
+                    <div className="sketchfab-embed-wrapper">
+                        <iframe className={styles.threeD} title="Andersontile2020" frameBorder="0" allowFullScreen mozallowfullscreen="true"
+                                webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking"
+                                xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered
+                                web-share
+                                src="https://sketchfab.com/models/9f871c53335b4b10bda56d19f14fb7e8/embed?autospin=1&autostart=1&preload=1"></iframe>
+                    </div>
+                </a>
+                    <h4>3D model of crops</h4>
+                    <p className={styles.tag}>Made in OpenDroneMap</p>
+                    <p className={styles.text_column}>stuff</p>
                 </div>
 
                 <div className={styles.thumbnail}>
@@ -51,6 +59,10 @@ const Modeling = () => {
                             src="https://sketchfab.com/models/4bcc4fc75afa4e35827e3910e035100e/embed"></iframe>
                     <h4>3D Model Of Crops</h4>
                     <p className={styles.tag}>Processed in Agisoft Metashape</p>
+
+                    <div className={styles.picture}><img src={elevationPic} alt="elevation Picture"  className={styles.cards}/></div>
+
+
                     <p className={styles.text_column}>Compiled # photos for this...</p>
                 </div>
                 <div className={styles.thumbnail}><a href="#"><img
