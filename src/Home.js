@@ -1,10 +1,10 @@
 import React from "react"
-import styles from './home.module.css';
+import styles from './CssModules/home.module.css';
 
-import location from './location.png'
-import cap from './cap.png'
-import hobby from './hobby.png'
-import work from './work.png'
+import location from './Pictures/location.png'
+import cap from './Pictures/cap.png'
+import hobby from './Pictures/hobby.png'
+import work from './Pictures/work.png'
 
 
 const Home = () => {
@@ -28,6 +28,17 @@ const Home = () => {
             </section>
             <div className={styles.gallery}>
                 <div className={styles.thumbnail}><a><img src={location} alt="location-pic"  class={styles.cards}/></a>
+
+                    <div className="mapouter">
+                        <div className="gmap_canvas">
+                            <iframe className={styles.threeD} width="612" height="259" id="gmap_canvas"
+                                    src="https://maps.google.com/maps?q=Marion,%20IN&t=&z=11&ie=UTF8&iwloc=&output=embed"
+                                    frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
+                            <a href="https://2piratebay.org"></a>
+                        </div>
+                    </div>
+
+
                     <h4>My Location</h4>
                     <p className={styles.tag}>Marion, IN, US</p>
                     <p className={styles.text_column}>
@@ -51,10 +62,9 @@ const Home = () => {
                         My focus seems to gravitate towards 3D applications. Whether it be collecting images with
                         a drone to create 3D models of landscapes, houses, or parts of a town, or milling a complex
                         design into walnut boards to create a bas-relief, I really enjoy 3D applications.
+                       <strong> You can see more of my 3D productions by selecting the 3D models in the menu above.</strong>
                     </p>&nbsp;
-                    <p>
-                        You can see more of my 3D productions by selecting the 3D models in the menu above.
-                    </p>
+
                 </div>
                 <div className={styles.thumbnail}><a><img src={work} alt="" width="2000" class={styles.cards}/></a>
                     <h4>Work</h4>

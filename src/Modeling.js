@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./home.module.css"
+import styles from "./CssModules/home.module.css"
 
 const Modeling = () => {
     return (
@@ -13,17 +13,11 @@ const Modeling = () => {
 
             <section className={styles.intro}>
                 <div className={styles.column}>
-                    <h3>JOHN DOE</h3>
+                    <h3>3D MODELING</h3>
 
                     <div className={styles.column}>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                            voluptate velit esse cillum dolore eu fugiat nulla </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                            voluptate velit esse cillum dolore eu fugiat nulla</p>
+                        <p>Here you can see what i'm up to. I'll post about photogrammetry, fusion 360, orthomosaics, height maps, and even some CNC videos. Exciting stuff! </p>
+                        <p></p>
                     </div>
                 </div>
             </section>

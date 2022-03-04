@@ -15,6 +15,8 @@
     margin-bottom: 0%;
 }
 .smallIsaacPearson{
+    padding-left: 200px;
+    padding-right: 20px;
 
 }
 /* Container */
@@ -28,9 +30,11 @@
 /* Header */
 .header {
     width: 100%;
-    height: 8%;
+    height: 20px;
     background-color: #5D5E5D;
     border-bottom: 1px solid #353635;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 .logo {
     color: #fff;
@@ -71,25 +75,33 @@
     padding-top: 0px;
     margin-top: -5px;
     margin-bottom: 0px;
+
+
+
+
 }
 .thumbnail {
-    width: auto;
+    width: 100%;
     text-align: center;
     float: left;
     margin-top: 35px;
-    background-color: #F8F8F8;
+    background-color: rgba(82, 186, 213, 0.15);
     padding-bottom: 20px;
     margin-left: 1%;
     margin-right: 1%;
     border-radius: 3px;
     padding-top: 20px;
-    border-bottom: 4px solid #6DC7D0;
+    border-bottom: 12px solid #5D5E5D;
+    border-left: 4px solid #5D5E5D;
     contain: content;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 50px;
 }
 .threeD {
-    padding: 0%;
-    width: 95%;
-    length: auto;
+    padding: 1px;
+    width: 90%;
+    border: 5px solid #52BAD5;
+    border-radius: 20px;
 }
 .gallery .thumbnail h4 {
     margin-top: 5px;
@@ -111,6 +123,7 @@
     padding-bottom: 35px;
     width: 100%;
     align-content: center;
+    border-bottom-left-radius: 20px;
 }
 .column {
     width: 100%;
@@ -128,10 +141,10 @@
 .cards {
     width: auto;
     height: auto;
-
+    border: #6DC7D0 20px;
     max-width: 100px;
     max-height: 100px;
-    opacity: 0.80;
+
 }
 .intro .column p {
     padding-left: 30px;

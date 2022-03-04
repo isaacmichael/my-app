@@ -1,7 +1,7 @@
 import React from "react"
-import styles from './home.module.css';
+import styles from './CssModules/home.module.css';
 
-import location from './location.png'
+import location from './Pictures/location.png'
 
 
 

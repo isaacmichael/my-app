@@ -1,6 +1,6 @@
 import React from "react"
-import isaac from "./isaac.png";
-import styles from './resume.module.css';
+import isaac from "./Pictures/isaac.png";
+import styles from './CssModules/resume.module.css';
 
 
 const Resume = () => {
