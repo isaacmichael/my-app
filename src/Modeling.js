@@ -36,7 +36,7 @@ const Modeling = () => {
                     <h4>Best-One Tire Upland, IN</h4>
                     <p className={styles.tag}>Made with OpenDroneMap</p>
                     <p className={styles.text_column}>A model of Best-One Tire upland. Taken With a Phantom 4 Pro Drone
-                    Crosshatch survey consisting of ~500 photos for better 3D imaging.
+                        Crosshatch survey consisting of ~500 photos for better 3D imaging.
                         Mainly, I created this map for fun, but I also find it important to preserve the state of a given location with something
                         more substantial than a photo. If a picture is worth a thousand words, I wonder what a 3D model is worth?
 
@@ -50,7 +50,7 @@ const Modeling = () => {
                                 xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered
                                 web-share
                                 src="https://sketchfab.com/models/9f871c53335b4b10bda56d19f14fb7e8/embed?autospin=1&autostart=1&preload=1"></iframe>
-                       <p className={styles.text_column}> Above is an interactive 3D model, try it out!</p>
+                        <p className={styles.text_column}> Above is an interactive 3D model, try it out!</p>
                         <img src={elevationPic} alt="elevation Picture"  className={styles.picture} />
                     </div>
 
@@ -92,7 +92,7 @@ const Modeling = () => {
                     <h4>Shapeoko 3XL - CNC</h4>
                     <p className={styles.tag}>Last Supper Relief Carving</p>
                     <p className={styles.text_column}>Here's a sped up version of my Shapeoko carving out a last supper scene.
-                    The .OBJ file for the project was taken from Etsy and the GRBL files were created using Vectric Vcarve.
+                        The .OBJ file for the project was taken from Etsy and the GRBL files were created using Vectric Vcarve.
                         Total time to produce was around 6hrs with 4 bit changes.
                     </p>
                 </div>
