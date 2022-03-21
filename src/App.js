@@ -12,7 +12,6 @@ function App() {
             <div>
                 <nav>
                     <ul>
-
                         <li>
                             <NavLink exact to={"/"} activeClassName="active" end>
                                 Home
@@ -32,8 +31,6 @@ function App() {
                         </li>
                     </ul>
                 </nav>
-
-
         </div>
 
 
