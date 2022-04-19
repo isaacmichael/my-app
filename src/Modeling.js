@@ -1,13 +1,12 @@
 import React from "react"
 import styles from "./CssModules/modeling.module.css"
 import elevationPic from "./Pictures/extras/wiseman height 2d profile.JPG"
-import hobby from "./Pictures/hobby.png";
 
 const Modeling = () => {
     return (
         <body>
 
-        <div className="container">
+        <div className={styles.container}>
 
             <header className={styles.header}>
             </header>
@@ -42,7 +41,7 @@ const Modeling = () => {
                 </div>
 
                 <div className={styles.thumbnail}><a>
-                    <div className="sketchfab-embed-wrapper">
+                    <div className={styles.sketchfab}>
                         <iframe className={styles.threeD} title="Andersontile2020" frameBorder="0" allowFullScreen mozallowfullscreen="true"
                                 webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking"
                                 xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered
