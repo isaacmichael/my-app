@@ -20,7 +20,7 @@ const Home = () => {
             <section className={styles.intro}>
                 <div className={styles.column}>
                     <h1 className={styles.isaacPearson}>Isaac Pearson</h1>
-                    <p className={styles.smallIsaacPearson}>
+                    <p className={styles.summary}>
                         [ˈīzək] - A Computer Science student, obsessed with automating everything.
                     </p>
                 </div>
@@ -79,10 +79,7 @@ const Home = () => {
             </div>
 
 
-            <footer id={styles.footer}>
-                <p className={styles.hero_header}>SEND ME AN EMAIL</p>
-                <div className={styles.button}>EMAIL ME</div>
-            </footer>
+
             <div className={styles.copyright}>3.2.2022 - <strong>Pearson</strong></div>
         </div>
 

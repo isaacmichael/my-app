@@ -8,6 +8,8 @@
   max-width: 960px;
   padding-left: 2.275%;
   padding-right: 2.275%;
+  position: relative;
+  top:50px;
 }
 .mainContent .section1 .sectionTitle {
   float: bottom;
@@ -28,17 +30,16 @@ header .logoPlaceholder span {
   line-height: 53px;
 }
 .header .profilePhoto {
-  padding-top: 3%;
-  padding-bottom: 2%;
-  opacity: 100%;
-  width: 259px;
+  opacity: 99%;
+  max-width: 259px;
   border-radius: 50%;
   height: 259px;
   float: left;
+  margin: 0 auto;
 }
 .header .profileHeader .h1 {
   font-family: 'Montserrat', sans-serif;
-  color: rgba(146,146,146,1.00);
+  color: rgba(31, 24, 24, 0.91);
   font-size: 30px;
   font-weight: 700;
   line-height: 24px;

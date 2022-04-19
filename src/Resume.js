@@ -13,7 +13,7 @@ const Resume = () => {
 
         <section className={styles.profileHeader}>
             <h1 className={styles.h1}>Isaac Pearson&nbsp;</h1>
-            <h3 className={styles.h3}>Junior Software Developer&nbsp;</h3>
+            <h3 className={styles.h3}>Junior Software Developer</h3>
             <hr></hr>
             <p>
                 Motivated Computer Science student seeking internship or employment in Software

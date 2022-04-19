@@ -16,11 +16,10 @@ const Modeling = () => {
                 <div className={styles.column}>
                     <h3>3D MODELING - IN PROGRESS</h3>
 
-                    <div className={styles.column}>
-                        <p>Here's where I will share by hobbies. I enjoy creating 3D reconstructions of terrain using a DJI Phantom 4 Pro Drone,
+                    <div className={styles.summary}>
+                        <p className={styles.p}>Here's where I will share by hobbies. I enjoy creating 3D reconstructions of terrain using a DJI Phantom 4 Pro Drone,
                             carving intricate designs into wood with my Shapeoko 3 XL, and other random things that I find interesting.
                         </p>
-                        <p></p>
                     </div>
                 </div>
             </section>
@@ -97,10 +96,7 @@ const Modeling = () => {
                 </div>
             </div>
 
-            <footer id="contact">
-                <p className={styles.hero_header}>GET IN TOUCH WITH ME</p>
-                <div className={styles.button}>EMAIL ME</div>
-            </footer>
+
 
             <div className={styles.copyright}>2022 - <strong>PEARSON</strong></div>
         </div>

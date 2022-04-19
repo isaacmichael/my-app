@@ -5,6 +5,11 @@
     background-color: #FFFFFF;
     margin: 0 auto;
 }
+.intro .column .summary {
+    text-align: center;
+    font-style: oblique;
+    margin: 1px auto;
+}
 .isaacPearson{
     font-family: Arial, sans-serif;
     color: #FFFFFF;
@@ -29,6 +34,8 @@
     margin: 1px;
     padding: 0;
     background-color: #FFFFFF;
+    position: relative;
+    top:50px;
 }
 /* Header */
 .header {
@@ -157,6 +164,9 @@
     border: #6DC7D0 20px;
     max-width: 100px;
     max-height: 100px;
+    opacity: .9;
+    -webkit-font-smoothing: antialiased;
+    margin: 1px auto;
 
 
 }
