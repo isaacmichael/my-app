@@ -15,7 +15,7 @@ const Resume = () => {
             <h1 className={styles.h1}>Isaac Pearson&nbsp;</h1>
             <h3 className={styles.h3}>Junior Software Developer&nbsp;</h3>
             <hr></hr>
-            <p className>
+            <p>
                 Motivated Computer Science student seeking internship or employment in Software
                 Development to gain hands-on experience. Skilled in developing, optimizing, and reworking
                 systems to meet specific customer requirements.
@@ -99,10 +99,10 @@ const Resume = () => {
         </section>
         <aside className={styles.externalResourcesNav}>
             <span className={styles.stretch}></span>
-            <div className={styles.externalResources}><a href="https://www.linkedin.com/in/isaac-pearson-6bba271a2/"
+            <div className={styles.externalResources}><a href="https://www.linkedin.com/in/isaac-pearson-6bba271a2/" target="_blank"
                                                   title="Linked-In Link">LINKED-IN</a></div>
             <span className={styles.stretch}></span>
-            <div className={styles.externalResources}><a href="https://github.com/isaacmichael"
+            <div className={styles.externalResources}><a href="https://github.com/isaacmichael" target="_blank"
                                                   title="Github Link">GITHUB</a></div>
         </aside>
     </section>

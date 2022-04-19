@@ -154,8 +154,8 @@ hr .hr{
   text-decoration: none;
 }
 .stretch {
-  content: '';
   display: inline-block;
+  align-content: center;
   margin-left: 2%;
   margin-right: 2%;
 }

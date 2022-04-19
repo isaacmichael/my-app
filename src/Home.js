@@ -14,12 +14,12 @@ const Home = () => {
 
         <div className={styles.container}>
             <header className={styles.header}>
-                <h4 className={styles.logo}>&nbsp;</h4>
+
             </header>
 
             <section className={styles.intro}>
                 <div className={styles.column}>
-                    <h1 className={styles.isaacPearson}>Isaac Pearson&nbsp;</h1>
+                    <h1 className={styles.isaacPearson}>Isaac Pearson</h1>
                     <p className={styles.smallIsaacPearson}>
                         [ˈīzək] - A Computer Science student, obsessed with automating everything.
                     </p>

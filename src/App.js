@@ -1,10 +1,9 @@
 
-import {Routes, Route, NavLink as Link, Redirect, BrowserRouter, Switch, NavLink} from "react-router-dom"
+import {Routes, Route, NavLink} from "react-router-dom"
 import React from "react";
 import Resume from "./Resume";
 import Home from "./Home"
 import Modeling from "./Modeling"
-import Hobbies from "./Hobbies"
 
 function App() {
     return (
@@ -44,9 +43,7 @@ function App() {
         </div>
 
         </div>
-
-
-);
+    );
 }
 
 export default App;

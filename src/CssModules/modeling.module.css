@@ -14,11 +14,7 @@
     font-size: 400%;
     margin-bottom: 0%;
 }
-.smallIsaacPearson{
-    padding-left: 200px;
-    padding-right: 20px;
 
-}
 /* Container */
 .container {
     position: center;
@@ -35,6 +31,7 @@
     border-bottom: 1px solid #353635;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    text-align: center;
 }
 .logo {
     color: #fff;
@@ -56,7 +53,7 @@
 /* About Section */
 .text_column {
     width: 90%;
-    text-align: left;
+    text-align: center;
     font-weight: lighter;
     line-height: 25px;
     float: left;
@@ -75,11 +72,6 @@
     padding-top: 0px;
     margin-top: -5px;
     margin-bottom: 0px;
-
-
-
-
-
 }
 .thumbnail {
     width: 100%;
@@ -148,7 +140,6 @@
     width: 100%;
     text-align: center;
     padding-top: 30px;
-    float: left;
 }
 .intro .column h3 {
     color: #FFFFFF;

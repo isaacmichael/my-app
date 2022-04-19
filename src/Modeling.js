@@ -10,7 +10,6 @@ const Modeling = () => {
         <div className="container">
 
             <header className={styles.header}>
-                <h4 className={styles.logo}>GRID</h4>
             </header>
 
             <section className={styles.intro}>
