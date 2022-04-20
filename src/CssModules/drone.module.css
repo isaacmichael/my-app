@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+.main {
+    position: relative;
+    top: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.picture {
+    background-image: url("../Pictures/field.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    border-radius: 25px;
+    border: 5px solid #353635;
+    text-align: center;
+    padding: 5px;
+}
+
+.droneTitle {
+    font-family: "Arial Black";
+    color: #ffffff;
+    opacity: 90%;
+    position: relative;
+    left: 9em;
+    text-align: center;
+    font-size: 2em;
+    margin: auto;
+    border-width: 2px;
+    border-color: black;
+}
+
+.droneInfo {
+    font-family: Arial, sans-serif;
+    position: relative;
+    top: 60%;
+    left: 3%;
+    margin: 0 auto;
+    color: white;
+    font-size: 450%;
+}
+
+.section1 {
+    margin: 5px;
+    background: linear-gradient(-45deg, #212020, #697b8d);
+    height: 300px;
+    border-radius: 30px;
+    border: 5px solid #212020;
+}
+.firstPara {
+    font-family: "Arial Black";
+    font-size: 200%;
+    text-align: center;
+    color: white;
+}

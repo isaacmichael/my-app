@@ -1,7 +1,5 @@
 import React from "react"
-import styles from './CssModules/home.module.css';
 
-import location from './Pictures/location.png'
 
 
 
@@ -11,9 +9,6 @@ const Hobbies = () => {
 
 <div class="container">
 
-    <header class="header">
-        <h4 class="logo">GRID</h4>
-    </header>
 
     <section class="intro">
         <div class="column">

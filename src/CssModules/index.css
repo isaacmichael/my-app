@@ -1,7 +1,7 @@
 body {
   margin: auto;
   width: auto;
-  max-width: 1080px;
+  max-width: 80%;
   align-content: center;
 }
 nav ul {
@@ -14,7 +14,7 @@ nav ul {
   z-index: 1;
   background-color: #eeeeee;
   width: 100%;
-  max-width: 1085px;
+  max-width: 80%;
   border-radius: 25px;
 }
 

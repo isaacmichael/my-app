@@ -4,6 +4,7 @@ import React from "react";
 import Resume from "./Resume";
 import Home from "./Home"
 import Modeling from "./Modeling"
+import Drone from "./Drone"
 
 function App() {
     return (
@@ -27,6 +28,11 @@ function App() {
                             </NavLink>
                         </li>
                         <li>
+                            <NavLink exact to={"Drone"} activeClassName="active" end>
+                                Drone
+                            </NavLink>
+                        </li>
+                        <li>
                         </li>
                     </ul>
                 </nav>
@@ -39,6 +45,7 @@ function App() {
                 <Route exact path="/" element={<Home />}></Route>
                 <Route exact path="Resume" element={<Resume />}></Route>
                 <Route exact path="Modeling" element={<Modeling />}></Route>
+                <Route exact path="Drone" element={<Drone />}></Route>
             </Routes>
         </div>
 
