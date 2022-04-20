@@ -5,9 +5,6 @@ const Drone = () => {
     return (
         <body className={styles.main}>
             <div className={styles.picture}>
-                <h1 className={styles.droneTitle}>
-                    4-19-22
-                </h1>
                 <h2 className={styles.droneInfo}>
                     FARMING WITH A DRONE
                 </h2>

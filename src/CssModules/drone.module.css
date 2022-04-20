@@ -3,12 +3,13 @@
 .main {
     position: relative;
     top: 80px;
-    display: block;
+    display: inline;
     margin: 0 auto;
 }
 
 
 .picture {
+    display: flex;
     background-image: url("../Pictures/field.jpg");
     background-size: cover;
     background-position: center;
@@ -16,26 +17,22 @@
     border-radius: 25px;
     border: 5px solid #353635;
     text-align: center;
-    padding: 5px;
+    align-items: center;
 }
 
 .droneTitle {
-    display: block;
+    align-self: flex-start;
     font-family: Arial, sans-serif;
-    padding-left: 80%;
     color: white;
     font-size: 2.5vw;
 }
 
 .droneInfo {
-    display: block;
+    align-self: center;
     font-family: Arial, sans-serif;
-    min-font-size: 6vw;
-    padding-top: 30vh;
-    margin: 1 auto;
     color: white;
+    opacity: 90%;
     font-size: 6.5vw;
-    vertical-align: bottom;
 }
 
 .section1 {
