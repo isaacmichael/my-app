@@ -13,22 +13,15 @@
     background-image: url("../Pictures/field.jpg");
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 300px;
     border-radius: 25px;
     border: 5px solid #353635;
     text-align: center;
     align-items: center;
 }
 
-.droneTitle {
-    align-self: flex-start;
-    font-family: Arial, sans-serif;
-    color: white;
-    font-size: 2.5vw;
-}
 
 .droneInfo {
-    align-self: center;
     font-family: Arial, sans-serif;
     color: white;
     opacity: 90%;
