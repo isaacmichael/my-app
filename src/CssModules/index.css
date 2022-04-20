@@ -1,7 +1,7 @@
 body {
   margin: auto;
   width: auto;
-  max-width: 80%;
+  max-width: 1080px;
   align-content: center;
 }
 nav ul {
@@ -13,9 +13,10 @@ nav ul {
   position: fixed;
   z-index: 1;
   background-color: #eeeeee;
-  width: 100%;
-  max-width: 80%;
+  width: 1080px;
+  max-width: 100%;
   border-radius: 25px;
+
 }
 
 nav a {
