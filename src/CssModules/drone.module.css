@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-
-
 .main {
     width: 100%;
     position: relative;
@@ -13,7 +11,6 @@
 
 }
 
-
 .picture {
     display: flex;
     background-image: url("../Pictures/field.jpg");
@@ -21,7 +18,7 @@
     background-position: center;
     justify-content: center;
     align-content: center;
-    height: 800px;
+    height: 500px;
     border-radius: 25px 25px 0px 0px;
 }
 .div2 {
@@ -46,13 +43,16 @@
     flex-grow: 2;
 }
 
-
 .droneTitle {
-    font-family: Arial, sans-serif;
-    color: white;
+    font-family: Calibri;
+    color: #212020;
+    font-stretch: inherit;
     opacity: 90%;
     font-size: 50px;
     max-font-size: 5.5vw;
+    height: 1.1em;
+    border-radius: 5px;
+
 }
 
 .section1 {

@@ -6,7 +6,7 @@ const Drone = () => {
         <body className={styles.main}>
             <div className={styles.picture}>
                 <h2 className={styles.droneTitle}>
-                    FARMING WITH A DRONE
+                    DRONES IN AGRICULTURE
                 </h2>
             </div>
             <div className={styles.div2}>
