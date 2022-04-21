@@ -5,9 +5,7 @@ body {
 }
 
 nav ul {
-  width: 97%;
-  height: 7%;
-  max-width: 1080px;
+
   display: flex;
   list-style-type: none;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.5);
@@ -17,9 +15,9 @@ nav ul {
   border-radius: 25px;
   align-content: center;
   justify-content: space-evenly;
+  padding-inline-start: 0px;
 }
 nav li {
-  flex-grow: 2;
   align-self: center;
 
 }
